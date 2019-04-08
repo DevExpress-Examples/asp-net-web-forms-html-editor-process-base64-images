@@ -20,9 +20,13 @@ public partial class _Default : System.Web.UI.Page {
         using(MemoryStream ms = new MemoryStream(imageBytes, 0, imageBytes.Length)) {
             ms.Write(imageBytes, 0, imageBytes.Length);
             using(Image image = Image.FromStream(ms, true)) {
-                string serverPath = string.Format("~/Images/{0}{1}", Guid.NewGuid(), GetFileExtension(image));
-                image.Save(Server.MapPath(serverPath));
-                return ResolveClientUrl(serverPath);
+                string imagesFolderName = "Images";
+                string imagesFolderServerPath = Server.MapPath(imagesFolderName);
+                if(!Directory.Exists(imagesFolderServerPath))
+                    Directory.CreateDirectory(imagesFolderServerPath);
+                string imageServerPath = string.Format("~/{0}/{1}{2}", imagesFolderName, Guid.NewGuid(), GetFileExtension(image));
+                image.Save(Server.MapPath(imageServerPath));
+                return ResolveClientUrl(imageServerPath);
             }
         }
     }
