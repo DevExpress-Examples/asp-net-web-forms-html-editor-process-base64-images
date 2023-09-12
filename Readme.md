@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# ASPxHtmlEditor - How to process images from base64 strings
+# HTML Editor for ASP.NET Web Forms - How to process images inserted in base64 format
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t223166/)**
 <!-- run online end -->
