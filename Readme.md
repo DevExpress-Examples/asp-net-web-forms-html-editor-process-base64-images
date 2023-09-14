@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/t223166/)**
 <!-- run online end -->
 
-This example demonstrates how to process images pasted as base64 strings (for instance, images pasted from the clipboard), save them on the server and operate with the related resource links.
+This example demonstrates how to process images pasted as Base64 strings (for instance, images pasted from the clipboard), save them on the server, and work with the related resource links.
 
 ## Implementation Details
 
