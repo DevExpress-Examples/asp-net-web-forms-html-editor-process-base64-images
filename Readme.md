@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# HTML Editor for ASP.NET Web Forms - How to process images inserted in base64 format
+# HTML Editor for ASP.NET Web Forms - How to process images inserted in Base64 format
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t223166/)**
 <!-- run online end -->
@@ -16,8 +16,8 @@ This example demonstrates how to process images pasted as Base64 strings (for in
 Follow the steps below to process images:
 
 1. Subscribe to the [HtmlCorrecting](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxHtmlEditor.ASPxHtmlEditor.HtmlCorrecting) event.
-2. In the event handler, process `img` tags that contain base64 data.
-3. Retrieve serialized image data from a base64 string and convert it to an array of bytes.
+2. In the event handler, process `img` tags that contain Base64 data.
+3. Retrieve serialized image data from a Base64 string and convert it to an array of bytes.
 4. Save the array of bytes as an image file on the server and generate a client URL to the newly created file.
 5. Replace the `src` attribute value of the processed `img` tag with the generated client URL.
 
