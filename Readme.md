@@ -22,4 +22,4 @@ Follow the steps below to process images:
 5. Replace the `src` attribute value of the processed `img` tag with the generated client URL.
 
 ## Files to Review
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx.cs](./CS/Default.aspx.cs)
