@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # HTML Editor for ASP.NET Web Forms - How to process images inserted in Base64 format
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128544921/)**
-<!-- run online end -->
 
 This example demonstrates how to process images pasted as Base64 strings (for instance, images pasted from the clipboard), save them on the server, and work with the related resource links.
 
