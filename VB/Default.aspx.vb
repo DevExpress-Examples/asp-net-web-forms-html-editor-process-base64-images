@@ -21,7 +21,7 @@ Partial Public Class _Default
 		Dim imageBytes() As Byte = Convert.FromBase64String(base64String)
 		Using ms As New MemoryStream(imageBytes, 0, imageBytes.Length)
 			ms.Write(imageBytes, 0, imageBytes.Length)
-			Using image As Image = Image.FromStream(ms, True)
+			Using image As Image = System.Drawing.Image.FromStream(ms, True)
 				Dim imagesFolderName As String = "Images"
 				Dim imagesFolderServerPath As String = Server.MapPath(imagesFolderName)
 				If Not Directory.Exists(imagesFolderServerPath) Then
