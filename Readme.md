@@ -22,7 +22,7 @@ Follow the steps below to process images:
 ## Files to Review
 * [Default.aspx.cs](./CS/Default.aspx.cs)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-html-editor-process-base64-images&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-html-editor-process-base64-images&~~~was_helpful=no)
 
